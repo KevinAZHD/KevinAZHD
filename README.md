@@ -1,3 +1,5 @@
+![](space-shooter.gif)
+
 ## 🚀 Backend & APIs
 <a href="https://learn.microsoft.com/es-es/dotnet/csharp/" target="blank">![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=c-sharp&logoColor=white)</a>
 <a href="https://learn.microsoft.com/es-es/cpp/cpp/?view=msvc-180" target="blank">![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)</a>
