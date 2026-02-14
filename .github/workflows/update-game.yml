@@ -19,7 +19,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: 'game.gif'
           strategy: 'random'
-          fps: 60
+          fps: 40
 
       - name: Commit and push if changed
         run: |
