@@ -1,4 +1,4 @@
-## 📊 "Game" Activity
+## 📊 My "Game" Activity
 ![](game.gif?raw=true)
 
 ## 🚀 Backend & APIs
