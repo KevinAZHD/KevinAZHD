@@ -1,5 +1,5 @@
-## 📊 GitHub Activity
-![](game.gif)
+## 📊 "Game" Activity
+![](game.gif?raw=true)
 
 ## 🚀 Backend & APIs
 <a href="https://learn.microsoft.com/es-es/dotnet/csharp/" target="blank">![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=c-sharp&logoColor=white)</a>
