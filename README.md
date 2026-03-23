@@ -9,7 +9,7 @@
 <a href="https://pandas.pydata.org/docs/" target="blank">![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)</a>
 <a href="https://docs.perplexity.ai/" target="blank">![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white)</a>
 <a href="https://docs.pola.rs/" target="blank">![Polars](https://img.shields.io/badge/Polars-0D3B75?style=for-the-badge&logo=polars&logoColor=white)</a>
-<a href="https://pycaret.gitbook.io/docs/" target="blank">![PyCaret](https://img.shields.io/badge/PyCaret-E1B12C?style=for-the-badge&logo=scikitlearn&logoColor=black)</a>
+<a href="https://pycaret.gitbook.io/docs/" target="blank">![PyCaret](https://img.shields.io/badge/PyCaret-E1B12C?style=for-the-badge&logoColor=black)</a>
 <a href="https://docs.python.org/3/" target="blank">![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)</a>
 <a href="https://replicate.com/docs" target="blank">![Replicate](https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white)</a>
 <a href="https://seaborn.pydata.org/" target="blank">![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=plotly&logoColor=white)</a>
@@ -53,7 +53,7 @@
 <a href="https://jupyterlab.readthedocs.io/en/stable/" target="blank">![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)</a>
 <a href="https://www.kernel.org/doc/html/latest/" target="blank">![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)</a>
 <a href="https://lmstudio.ai/docs" target="blank">![LM Studio](https://img.shields.io/badge/LM_Studio-9333EA?style=for-the-badge&logoColor=white)</a>
-<a href="https://modelcontextprotocol.io/introduction" target="blank">![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=socketdotio&logoColor=white)</a>
+<a href="https://modelcontextprotocol.io/introduction" target="blank">![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)</a>
 <a href="https://docs.n8n.io/" target="blank">![n8n](https://img.shields.io/badge/n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white)</a>
 <a href="https://netbeans.apache.org/kb/docs/" target="blank">![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)</a>
 <a href="https://www.odoo.com/documentation/19.0/" target="blank">![Odoo](https://img.shields.io/badge/Odoo-7A7A7A?style=for-the-badge&logo=odoo&logoColor=white)</a>
