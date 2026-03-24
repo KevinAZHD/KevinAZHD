@@ -5,7 +5,7 @@
 <a href="https://docs.anthropic.com/" target="blank">![Anthropic](https://img.shields.io/badge/Anthropic-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)</a>
 <a href="https://ai.google.dev/gemini-api/docs" target="blank">![Google AI](https://img.shields.io/badge/Google_AI-F4B400?style=for-the-badge&logo=google&logoColor=white)</a>
 <a href="https://numpy.org/doc/" target="blank">![NumPy](https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)</a>
-<a href="https://platform.openai.com/docs/" target="blank">![OpenAI](https://img.shields.io/badge/OpenAI-74AA9C?style=for-the-badge&logo=openai&logoColor=white)</a>
+<a href="https://platform.openai.com/docs/" target="blank">![OpenAI](https://img.shields.io/badge/OpenAI-74AA9C?style=for-the-badge&logo=codewars&logoColor=white)</a>
 <a href="https://pandas.pydata.org/docs/" target="blank">![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)</a>
 <a href="https://docs.perplexity.ai/" target="blank">![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white)</a>
 <a href="https://docs.pola.rs/" target="blank">![Polars](https://img.shields.io/badge/Polars-0D3B75?style=for-the-badge&logo=polars&logoColor=white)</a>
