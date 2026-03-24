@@ -23,7 +23,7 @@
 <a href="https://docs.oracle.com/en/java/" target="blank">![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)</a>
 <a href="https://www.mongodb.com/docs/" target="blank">![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)</a>
 <a href="https://dev.mysql.com/doc/" target="blank">![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)</a>
-<a href="https://docs.oracle.com/en/" target="blank">![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)</a>
+<a href="https://docs.oracle.com/en/" target="blank">![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oculus&logoColor=white)</a>
 <a href="https://docs.spring.io/spring-framework/reference/" target="blank">![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)</a>
 <a href="https://docs.spring.io/spring-boot/reference/" target="blank">![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)</a>
 
