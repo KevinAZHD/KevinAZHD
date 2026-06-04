@@ -2,7 +2,7 @@ name: Update Space Shooter Game
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "${{ vars.USER_EMAIL }}"
+          git config --local user.name "KevinAZHD"
           git add game.gif
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update game GIF [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update space shooter game GIF" && git push)
