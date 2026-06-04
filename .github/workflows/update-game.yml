@@ -8,22 +8,27 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-game:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - uses: czl9707/gh-space-shooter@v1
+      - uses: czl9707/gh-space-shooter@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: 'game.gif'
           strategy: 'random'
           fps: 40
 
-      - name: Commit and push if changed
+      - name: Rewrite commit author to count as contribution
         run: |
           git config --local user.email "${{ vars.USER_EMAIL }}"
           git config --local user.name "KevinAZHD"
-          git add game.gif
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update space shooter game GIF" && git push)
+          git commit --amend --reset-author --no-edit
+          git push --force-with-lease
