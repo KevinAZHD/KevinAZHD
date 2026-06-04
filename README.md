@@ -1,7 +1,14 @@
+<div align="center">
+
 ## 📊 My "Game" Activity
 ![](game.gif?raw=true)
 
+</div>
+
+<div align="center">
+
 ## 🤖 AI & Data
+
 <a href="https://docs.anthropic.com/" target="blank">![Anthropic](https://img.shields.io/badge/Anthropic-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)</a>
 <a href="https://ai.google.dev/gemini-api/docs" target="blank">![Google AI](https://img.shields.io/badge/Google_AI-F4B400?style=for-the-badge&logo=google&logoColor=white)</a>
 <a href="https://numpy.org/doc/" target="blank">![NumPy](https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)</a>
@@ -15,7 +22,12 @@
 <a href="https://seaborn.pydata.org/" target="blank">![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=plotly&logoColor=white)</a>
 <a href="https://docs.x.ai/docs/overview" target="blank">![xAI](https://img.shields.io/badge/xAI-000000?style=for-the-badge&logo=x&logoColor=white)</a>
 
+</div>
+
+<div align="center">
+
 ## 🚀 Backend & APIs
+
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="blank">![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=c-sharp&logoColor=white)</a>
 <a href="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170" target="blank">![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)</a>
 <a href="https://firebase.google.com/docs" target="blank">![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)</a>
@@ -27,7 +39,12 @@
 <a href="https://docs.spring.io/spring-framework/reference/" target="blank">![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)</a>
 <a href="https://docs.spring.io/spring-boot/reference/" target="blank">![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)</a>
 
+</div>
+
+<div align="center">
+
 ## 🎨 Frontend & Design
+
 <a href="https://getbootstrap.com/docs/5.3/" target="blank">![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)</a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)</a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)</a>
@@ -36,12 +53,22 @@
 <a href="https://tailwindcss.com/docs" target="blank">![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)</a>
 <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/" target="blank">![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)</a>
 
+</div>
+
+<div align="center">
+
 ## 📱 Mobile Development
+
 <a href="https://developer.android.com/docs" target="blank">![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)</a>
 <a href="https://kotlinlang.org/docs/home.html" target="blank">![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)</a>
 <a href="https://learn.microsoft.com/en-us/dotnet/maui/" target="blank">![MAUI](https://img.shields.io/badge/MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)</a>
 
+</div>
+
+<div align="center">
+
 ## 🛠️ Tools & Platforms
+
 <a href="https://developer.android.com/studio/intro" target="blank">![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)</a>
 <a href="https://antigravity.google/docs" target="blank">![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)</a>
 <a href="https://learn.microsoft.com/en-us/azure/" target="blank">![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)</a>
@@ -63,3 +90,5 @@
 <a href="https://www.virtualbox.org/wiki/Documentation" target="blank">![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)</a>
 <a href="https://code.visualstudio.com/docs" target="blank">![Visual Code](https://img.shields.io/badge/Visual_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)</a>
 <a href="https://learn.microsoft.com/en-us/visualstudio/windows/?view=vs-2022" target="blank">![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)</a>
+
+</div>
