@@ -2,7 +2,7 @@ name: Update Space Shooter Game
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
 
 permissions:
