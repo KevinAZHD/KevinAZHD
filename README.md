@@ -3,7 +3,9 @@
 ## 📊 My "Game" Activity
 ![](game.gif?raw=true)
 
-[**👉 Portfolio 👈**](https://kevinazhd.github.io/)
+<a href="https://kevinazhd.github.io/" target="_blank" rel="noopener noreferrer">
+  <img src="images/badges/portfolio.svg" alt="Portfolio" height="56"/>
+</a>
 
 </div>
 

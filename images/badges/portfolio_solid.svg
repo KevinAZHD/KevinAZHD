@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="56" viewBox="0 0 320 56">
+  <defs>
+    <!-- Animated Gradient for Background -->
+    <linearGradient id="solid-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#008783">
+        <animate attributeName="stop-color" values="#008783;#10B981;#67D79C;#10B981;#008783" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#67D79C;#008783;#67D79C;#10B981" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#67D79C">
+        <animate attributeName="stop-color" values="#67D79C;#008783;#10B981;#008783;#67D79C" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing filter for background -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Shimmer overlay -->
+    <linearGradient id="shimmer-sweep" x1="-100%" y1="-100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      <animate attributeName="x1" values="-100%;150%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="-100%;150%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;250%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="0%;250%" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&amp;display=swap');
+      .badge-group {
+        transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        transform-origin: center;
+        cursor: pointer;
+      }
+      .badge-group:hover {
+        transform: scale(1.04);
+      }
+      .badge-bg {
+        fill: url(#solid-gradient);
+        stroke: #ffffff;
+        stroke-width: 1.5;
+        stroke-opacity: 0.3;
+      }
+      .badge-text {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        letter-spacing: 4px;
+        fill: #FFFFFF;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .arrow-path {
+        fill: #FFFFFF;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+      }
+    </style>
+  </defs>
+
+  <!-- Glowing underlay -->
+  <rect x="6" y="6" width="308" height="44" rx="22" fill="url(#solid-gradient)" filter="url(#neon-glow)" opacity="0.6" />
+
+  <!-- Main interactive group -->
+  <g class="badge-group">
+    <!-- Capsule shape -->
+    <rect class="badge-bg" x="2" y="2" width="316" height="52" rx="26" />
+
+    <!-- Shimmer Layer -->
+    <rect x="2" y="2" width="316" height="52" rx="26" fill="url(#shimmer-sweep)" pointer-events="none" />
+
+    <!-- Centered Content -->
+    <g transform="translate(160, 28)">
+      <!-- Left Arrow (pointing right) -->
+      <g transform="translate(-115, -12)">
+        <g>
+          <path class="arrow-path" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+          <animateTransform 
+            attributeName="transform" 
+            type="translate" 
+            values="0,0; 3,0; 0,0" 
+            dur="1.2s" 
+            repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- Text -->
+      <text x="0" y="5" class="badge-text" text-anchor="middle">//PORTFOLIO//</text>
+
+      <!-- Right Arrow (pointing left) -->
+      <g transform="translate(91, -12)">
+        <g>
+          <path class="arrow-path" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          <animateTransform 
+            attributeName="transform" 
+            type="translate" 
+            values="0,0; -3,0; 0,0" 
+            dur="1.2s" 
+            repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
