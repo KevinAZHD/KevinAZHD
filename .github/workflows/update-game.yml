@@ -2,7 +2,8 @@ name: Update Space Shooter Game
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 22 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,7 +13,21 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
+  check-timezone:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.tz.outputs.should_run }}
+    steps:
+      - name: Check if midnight in Madrid
+        id: tz
+        run: |
+          HOUR=$(TZ='Europe/Madrid' date +%H)
+          echo "Current hour in Madrid: $HOUR"
+          echo "should_run=$( [ "$HOUR" = "00" ] && echo true || echo false )" >> $GITHUB_OUTPUT
+
   update-game:
+    needs: check-timezone
+    if: needs.check-timezone.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
